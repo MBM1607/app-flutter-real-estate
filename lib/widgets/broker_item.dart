@@ -1,15 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:real_estate/theme/color.dart';
+import 'package:easy_home/theme/color.dart';
 import 'custom_image.dart';
 
 class BrokerItem extends StatelessWidget {
-  BrokerItem({ Key? key, required this.data }) : super(key: key);
-  final data; 
+  BrokerItem({Key? key, required this.data}) : super(key: key);
+  final data;
 
   @override
   Widget build(BuildContext context) {
-    return 
-    Container(
+    return Container(
       padding: EdgeInsets.all(10),
       margin: EdgeInsets.only(bottom: 10),
       decoration: BoxDecoration(
@@ -29,31 +28,69 @@ class BrokerItem extends StatelessWidget {
         children: [
           Row(
             children: [
-              CustomImage(data["image"], width: 35, height: 35,),
-              SizedBox(width: 10,),
+              CustomImage(
+                data["image"],
+                width: 35,
+                height: 35,
+              ),
+              SizedBox(
+                width: 10,
+              ),
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(data["name"], style: TextStyle(fontSize: 13, fontWeight: FontWeight.w500),),
-                  SizedBox(height: 3,),
-                  Text(data["type"],  style: TextStyle(fontSize: 12, color: Colors.grey),),
+                  Text(
+                    data["name"],
+                    style: TextStyle(fontSize: 13, fontWeight: FontWeight.w500),
+                  ),
+                  SizedBox(
+                    height: 3,
+                  ),
+                  Text(
+                    data["type"],
+                    style: TextStyle(fontSize: 12, color: Colors.grey),
+                  ),
                 ],
               )
             ],
           ),
-          SizedBox(height: 10,),
+          SizedBox(
+            height: 10,
+          ),
           Text(
-            data["description"], 
+            data["description"],
             style: TextStyle(height: 1.5, color: darker),
           ),
-          SizedBox(height: 10,),
+          SizedBox(
+            height: 10,
+          ),
           Row(
             children: [
-              Icon(Icons.star, size: 16, color: yellow,),
-              Icon(Icons.star, size: 16, color: yellow,),
-              Icon(Icons.star, size: 16, color: yellow,),
-              Icon(Icons.star, size: 16, color: yellow,),
-              Icon(Icons.star_outline, size: 16, color: yellow,),
+              Icon(
+                Icons.star,
+                size: 16,
+                color: yellow,
+              ),
+              Icon(
+                Icons.star,
+                size: 16,
+                color: yellow,
+              ),
+              Icon(
+                Icons.star,
+                size: 16,
+                color: yellow,
+              ),
+              Icon(
+                Icons.star,
+                size: 16,
+                color: yellow,
+              ),
+              Icon(
+                Icons.star_outline,
+                size: 16,
+                color: yellow,
+              ),
             ],
           )
         ],

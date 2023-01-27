@@ -1,5 +1,5 @@
-name: real_estate
-description: A new Flutter project.
+name: easy_home
+description: A real estate app for buying and selling homes
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.

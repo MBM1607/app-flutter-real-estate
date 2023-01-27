@@ -1,9 +1,15 @@
-
 import 'package:flutter/material.dart';
-import 'package:real_estate/theme/color.dart';
+import 'package:easy_home/theme/color.dart';
 
 class IconBox extends StatelessWidget {
-  IconBox({ Key? key, required this.child, this.bgColor, this.onTap, this.borderColor = Colors.transparent, this.radius = 50}) : super(key: key);
+  IconBox(
+      {Key? key,
+      required this.child,
+      this.bgColor,
+      this.onTap,
+      this.borderColor = Colors.transparent,
+      this.radius = 50})
+      : super(key: key);
   final Widget child;
   final Color borderColor;
   final Color? bgColor;
