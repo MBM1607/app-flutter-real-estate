@@ -1,8 +1,12 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'pages/root.dart';
+import 'firebase_options.dart';
 import 'theme/color.dart';
 
-void main() {
+Future<void> main() async {
+  await Firebase.initializeApp(
+      name: 'EasyHome', options: DefaultFirebaseOptions.currentPlatform);
   runApp(MyApp());
 }
 

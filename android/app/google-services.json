@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "68800460643",
+    "project_id": "easyhome-flutter-app",
+    "storage_bucket": "easyhome-flutter-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68800460643:android:053f55e89fca9d3bad4556",
+        "android_client_info": {
+          "package_name": "com.example.easy_home"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68800460643-175km9j6t6ntqk334566q9mpr1cvf81c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChkT_6s7_if7kwEHcg7fiYQ3Oh37QUWuk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68800460643-175km9j6t6ntqk334566q9mpr1cvf81c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
